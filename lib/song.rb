@@ -5,7 +5,7 @@ class Song
 
   def initialize(name)
     @name = name
-    @@all << self
+    @@all_songs << self
   end
 
   # def artist_name
