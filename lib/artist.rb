@@ -10,7 +10,7 @@ class Artist
 
   def songs
     Song.all.map {|song| song.artist == self}
-    #binding.pry
+    binding.pry
   end
 
   def add_song(song)
