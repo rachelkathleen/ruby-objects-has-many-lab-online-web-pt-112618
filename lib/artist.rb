@@ -9,7 +9,7 @@ class Artist
   end
 
   def songs
-    Song.all.map {|artist| artist = @artist}
+    Song.all.map {|song| song.artist = @artist}
     #binding.pry
   end
 
