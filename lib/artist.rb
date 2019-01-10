@@ -9,8 +9,8 @@ class Artist
   end
 
   def songs
-    Song.all
-    binding.pry
+    Song.all.map {|artist| artist = @artist}
+    #binding.pry
   end
 
   def add_song(song)
