@@ -9,8 +9,7 @@ class Artist
   end
 
   def songs
-    songs = []
-    # binding.pry
+    @@all
   end
 
   def add_song(song)
